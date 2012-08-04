@@ -16,7 +16,7 @@ Although it has no external dependencies (like jQuery for instance), it will ret
     console.log("Mouse position: (" + mouse.position.x + ", " + mouse.position.y + ")");
     console.log("Previous position: (" + mouse.oldPosition.x + ", " + mouse.oldPosition.y + ")");
 
-    if (mouse.isPressed()) {
+    if (mouse.isPressed) {
       console.log("Mouse is pressed!");
     }
 
