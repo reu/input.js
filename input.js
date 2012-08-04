@@ -81,7 +81,7 @@
 
     function Mouse(container) {
       var _this = this;
-      this.container = container;
+      this.container = container != null ? container : document;
       this.updatePosition = __bind(this.updatePosition, this);
       if (typeof Vector !== "undefined" && Vector !== null) {
         this.oldPosition = new Vector;

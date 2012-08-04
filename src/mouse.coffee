@@ -1,5 +1,5 @@
 class Mouse
-  constructor: (@container) ->
+  constructor: (@container = document) ->
     if Vector?
       @oldPosition = new Vector
       @position    = new Vector
