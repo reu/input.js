@@ -10,7 +10,7 @@ Input.js is a simple game library that abstracts away how you handle _mouse_ and
   var mouse = new Mouse();
   var keyboard = new Keyboard();
 
-  setTimeout(function(){
+  setInterval(function(){
     console.log("Mouse position: (" + mouse.position.x + ", " + mouse.position.y + ")");
     console.log("Previous position: (" + mouse.oldPosition.x + ", " + mouse.oldPosition.y + ")");
 
