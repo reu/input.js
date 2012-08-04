@@ -48,7 +48,7 @@ class Keyboard
     @keysPressed = []
 
     window.addEventListener "keydown", @keyDown, false
-    window.addEventListener "keyup",   @keyDown, false
+    window.addEventListener "keyup",   @keyUp,   false
 
   keyDown: (event) => @keysPressed[event.keyCode] = true
   keyUp:   (event) => @keysPressed[event.keyCode] = false
