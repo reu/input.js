@@ -49,7 +49,7 @@
     }
 
     for (number = 0; number <= 9; number++) {
-      Keyboard.KEYS["NUMBER" + number] = number + 48;
+      Keyboard.KEYS[number] = number + 48;
     }
 
     function Keyboard() {

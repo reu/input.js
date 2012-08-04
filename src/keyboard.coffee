@@ -42,7 +42,7 @@ class Keyboard
     @KEYS[letter] = index + 65 # letter offset
 
   for number in [0..9]
-    @KEYS["NUMBER#{number}"] = number + 48 # number offset
+    @KEYS[number] = number + 48 # number offset
 
   constructor: ->
     @keysPressed = []
